@@ -1,0 +1,72 @@
+import { StyleSheet } from "react-native";
+
+ export const styles=StyleSheet.create({
+    mainContainer:{
+        backgroundColor:'#0db0af',
+        flex:1
+    },
+    photoContainer:{
+        height:130,
+        width:130,
+        borderRadius:70,
+        overflow:"hidden",
+        alignSelf:'center',
+        backgroundColor:'#0db0af',
+        justifyContent:'center',
+        alignItems:'center'
+    },
+    header:{
+        fontSize:33,
+        textAlign:'center',
+        marginTop:20,
+        fontWeight:'500',
+        color:'white'
+    },
+    profile:{
+        width:80,
+        height:80,
+        borderRadius:40
+    },
+    card:{
+        flexDirection:'row',
+        // borderWidth:1,
+        alignItems:'center',
+        marginHorizontal:30,
+        columnGap:30,
+        paddingHorizontal:20,
+        marginBottom:20,
+        height:150,
+        borderRadius:26,
+        backgroundColor:'white'
+        
+    },
+    flatList:{
+        marginTop:30
+    },
+    cardDetails:{
+        rowGap:10,
+    },
+    detailsTitles:{
+        fontSize:20,
+        color:"black",
+        fontWeight:"600"
+    },
+    detailsText:{
+        fontSize:18,
+        color:"black",
+        fontWeight:"500"
+    },
+    plus:{
+        alignSelf:'center',
+        paddingVertical:10,
+        position:"absolute",
+        backgroundColor:'#1877f2',
+        width:"100%",
+        bottom:0,
+        alignItems:"center"
+    },
+    inputs:{
+        rowGap:20,
+        marginHorizontal:30
+    }
+})

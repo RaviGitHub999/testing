@@ -1,0 +1,1 @@
+export const person=require("../assets/person.webp")
